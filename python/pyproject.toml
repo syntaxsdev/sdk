@@ -31,6 +31,9 @@ dependencies = [
   "kubeflow-trainer-api>=2.0.0",
 ]
 [project.optional-dependencies]
+model-registry = [
+  "model-registry>=0.2.21",
+]
 dev = [
   "pytest>=7.0",
   "pytest-mock>=3.10",
